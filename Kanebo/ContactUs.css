@@ -1,0 +1,225 @@
+.Background1
+{
+    float: left;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;  
+    background-size: cover;
+    bottom: 0;
+}
+
+#LOGO 
+{
+    font-family: amita;
+    color: black;
+    margin-left: 55px;
+    margin-top: 1%;
+    font-size: 45pt;
+    font-weight: bold;
+}
+
+.Background2
+{
+    float: left;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    right: 0;
+    bottom: 0;
+}
+
+#NAV 
+{
+  margin-top: 50px;
+  margin-left: 10px;
+  font-family: Caviar;
+  font-size: 13pt;
+  text-align: center;
+
+}
+@font-face
+{
+  font-family: Caviar;
+  src: url(CaviarDreams_Bold.ttf);
+}
+
+#nav ul li 
+{
+  display: inline;
+  padding: 12px;
+}
+
+#nav ul li a 
+{
+  color: black;
+  text-decoration: none;
+}
+
+#nav ul li a:hover 
+{
+  color: brown;
+  transition: 0.3s;
+  border-bottom: 4px solid brown;
+}
+#Back
+{
+    margin-top: -45px;
+    text-align: center;
+    margin-left: -550px;
+    font-size: 15pt;
+    font-family: caviar;
+    font-weight: bold;
+}
+
+@font-face
+{
+    font-family: caviar;
+    src: url(CaviarDreams_Bold.ttf);
+}
+
+#Back ul li a:hover 
+{
+  color: brown;
+  cursor: pointer;
+}
+
+.ContactUs
+{
+    text-align: left;
+    font-family: Next;
+    font-weight: bold;
+    font-size: 30pt;
+    margin-top: 70px;
+    margin-left: 100px;
+
+}
+@font-face
+{
+    font-family: Next;
+    src: url(Autography.otf);
+}
+
+.sub
+{
+  font-family: caviar;
+  font-size: 10pt;
+  margin-left: 100px;
+  width: 500px;
+}
+#Nav1 
+{
+  margin-top: 40px;
+  font-family: Caviar;
+  font-size: 15pt;
+  text-align: center;
+  font-weight: bold;
+
+}
+#Nav1 ul li 
+{
+  display: inline;
+  padding: 70px;
+}
+
+#Nav1 ul li a 
+{
+  color: black;
+  text-decoration: none;
+}
+
+#Nav1 ul li a:hover 
+{
+  color: brown;
+}
+
+#Nav2 
+{
+  margin-top: 1px;
+  margin-right: 25px;
+  font-family: Caviar;
+  font-size: 10pt;
+  text-align: center;
+
+}
+#Nav2 ul li 
+{
+  display: inline;
+  padding: 50px;
+}
+
+#Nav2 ul li a 
+{
+  color: black;
+  text-decoration: none;
+}
+
+#Nav2 ul li a:hover 
+{
+  color: brown;
+}
+
+.Name
+{
+  padding: 10px;
+  margin-left: 130px;
+  margin-top: 50px;
+  width: 500px;
+  font-size: 10pt;
+  text-align: center;
+  font-family: caviar;
+}
+
+.Email
+{
+  padding: 10px;
+  margin-left: 130px;
+  margin-top: 20px;
+  width: 500px;
+  font-size: 10pt;
+  text-align: center;
+  font-family: caviar;
+}
+
+.Message
+{
+  padding: 10px;
+  margin-left: 130px;
+  margin-top: 20px;
+  width: 500px;
+  font-size: 10pt;
+  text-align: center;
+  font-family: caviar;
+  
+}
+.Submit 
+{
+  background-color: lightseagreen;
+  color: white;
+  padding: 5px;
+  margin-left: 530px;
+  margin-top: 20px;
+  width: 100px;
+  font-size: 10pt;
+  text-align: center;
+  font-family: caviar;
+
+}
+.Submit:hover 
+{
+  transition: 1s;
+  background-color: lightpink;
+  cursor: pointer
+}
+
+.penutup
+{
+  text-align: center;
+  font-size: 30pt;
+  font-family: Next;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 120px;
+  width: 550px;
+}

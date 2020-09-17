@@ -1,0 +1,173 @@
+.Background1
+{
+    float: left;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;  
+    background-size: cover;
+    bottom: 0;
+}
+
+#LOGO 
+{
+    font-family: amita;
+    color: black;
+    margin-left: 55px;
+    margin-top: 1%;
+    font-size: 45pt;
+    font-weight: bold;
+}
+
+.Background2
+{
+    float: left;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    right: 0;
+    bottom: 0;
+}
+
+#NAV 
+{
+  margin-top: 30px;
+  text-align: left;
+}
+
+#nav ul li 
+{
+  display: inline;
+}
+
+#nav ul li a 
+{
+  color: black;
+  text-decoration: none;
+}
+
+#nav ul li a:hover 
+{
+  color: brown;
+}
+
+#Back
+{
+    margin-top: -45px;
+    text-align: center;
+    margin-left: -550px;
+    font-size: 15pt;
+    font-family: Next;
+    font-weight: bold;
+}
+
+@font-face
+{
+    font-family: Next;
+    src: url(CaviarDreams_Bold.ttf);
+}
+
+#Back ul li a:hover 
+{
+  color: brown;
+  cursor: pointer;
+}
+
+.Login
+{
+    text-align: center;
+    font-family: Next;
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 100px;
+    margin-left: 35px;
+}
+
+.Username
+{
+  padding: 20px;
+  margin-left: 150px;
+  margin-top: 50px;
+  width: 500px;
+  font-size: 16px;
+  text-align: center;
+  font-family: Next;
+}
+
+.Password
+{
+  padding: 20px;
+  margin-left: 150px;
+  margin-top: 10px;
+  width: 500px;
+  font-size: 16px;
+  text-align: center;
+  font-family: Next;
+}
+
+.submit 
+{
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  margin-left: 150px;
+  margin-top: 20px;
+  width: 500px;
+  font-size: 16px;
+  text-align: center;
+  font-family: Next;
+
+}
+.submit:hover 
+{
+  transition: 2s;
+  border-radius: 50px;
+  background-color: lightpink;
+  cursor: pointer
+}
+
+.facebook 
+{ 
+  background-color:  blue;
+  padding: 20px;
+  margin-left: 150px;
+  margin-top: 25px;
+  width: 500px;
+  font-size: 16px;
+  text-align: center;
+  font-family: Next;
+  color: white;
+}
+
+.facebook:hover 
+{
+  transition: 2s;
+  border-radius: 50px;
+  background-color: lightseagreen;
+  cursor: pointer
+
+}
+
+
+.penutup
+{
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 155px;
+  color: ghostwhite;
+  font-family: Next;
+}
+
+.penutup:hover 
+{
+  cursor: pointer
+}
+
+.option {
+  margin-top: 25px;
+  margin-left: 160px;
+  font-family: Next;
+  color: black;
+  text-align: center;
+}

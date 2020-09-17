@@ -1,0 +1,209 @@
+body {
+    background-color:  #EAEAEA;
+}
+
+#nav{
+    width: 100%;
+    height: 50px;
+    background-color: #4E4646;
+}
+
+ul li {
+    display: inline;
+}
+
+.list{
+    float: right;
+    margin-top: 10px;
+    padding-right: 15px;
+    color: white;
+    font-family: roboto;
+
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+.list:hover {
+    transition: 0.5s;
+    color: lightgray;
+    cursor: pointer
+}
+
+.back {
+    cursor: pointer
+}
+
+#search {
+float: right;
+margin-top: 25px; 
+margin-right: 100px;
+width: 250px;
+border: none;
+background-color: white;
+font-family: roboto;
+padding: 10px;
+}
+
+#button {
+    float: right;
+    margin-top: 25px;
+    border: none;
+   
+    background-color: white;
+
+}
+
+#button:hover{
+    cursor: pointer
+    
+    
+}
+
+
+.kolom1{
+    background-color: #006A71;
+    width: 700px;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.kolom2{
+    background-color: #006A71;
+    width: 550px;
+    height: 150px;
+    float: right;
+    margin-top: -150px;
+    margin-right: 220px;
+    text-align: center;
+
+}
+
+.p1 {
+    padding-top: 50px;
+    font-family: roboto;
+    color: white;
+    font-size: 25px;
+}
+
+#brg1 {
+    
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    margin-left: 30px;
+    background-image: url(chair.png);
+    background-size: cover;
+    font-family: roboto;   
+    
+
+}
+
+.wp1 {
+    padding-top: 20px;
+    padding-left: 400px;
+    font-family: roboto;
+    font-size: 25px;
+}
+.wp2 {
+    padding-top: 20px;
+    padding-left: 400px;
+    font-family: roboto;
+    color: gray;
+}
+.pict1 {
+    padding-left: 400px;
+}
+.wp3 {
+    padding-left: 400px;
+    color: green;
+}
+
+.wp4 {
+    padding-left: 400px;
+}
+
+
+#container {
+    float: right;
+    width : 550px;
+    height : 500px;
+    background-color: white;
+    margin-right: 50px;
+    margin-left: 15.5px;
+    text-align: center;
+}
+
+.price{
+    padding-top: 170px;
+    padding-left: 570px;
+}
+
+.ct1 {
+    text-align: center;
+    font-family: roboto;
+    margin-top: 20px;
+
+}
+
+.ct2 {
+    margin-top: 100px;
+}
+
+.ct3 {
+    margin-top: 150px;
+}
+
+.ct4 {
+    margin-top: 80px;
+}
+
+#container2 {
+    float: left;
+    width: 700px;
+    height: 150px;
+    margin-top: 15px;
+    background-color: white;
+    margin-left: 30px;
+    text-align: center;
+    
+}
+
+
+.ct5 {
+    margin-top: 80px;
+}
+
+#check {
+    width: 550px;
+    height: 80px;
+    background-color: green;
+    color: white;
+    margin-left: 15px;
+    font-size: 25px;
+
+}
+
+#check:hover {
+    border-radius: 50px;
+    transition: 1s;
+    color: gray;
+    background-color: darkgreen;
+    cursor: pointer
+    
+}
+
+#footer {
+    margin-top: 40px;
+    width: 1380px;
+    height: 200px;
+    background-size: cover;
+    background-image: url(footer.png);
+ 
+
+}
